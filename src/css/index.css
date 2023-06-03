@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+input[type="checkbox"] {
+  @apply
+    bg-transparent ring-0 checked:ring-0 focus-within:ring-0 focus:ring-0 focus:ring-offset-0 focus:ring-offset-transparent focus-within:bg-transparent checked:focus-within:bg-sky-500 hover:bg-transparent checked:hover:bg-sky-500;
+}

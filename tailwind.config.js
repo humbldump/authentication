@@ -2,6 +2,7 @@ export default {
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx,css}",
+        "./src/css/index.css",
     ],
     theme: {
         extend: {
@@ -18,5 +19,5 @@ export default {
             }
         },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/forms")],
 }
